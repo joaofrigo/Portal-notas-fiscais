@@ -1,0 +1,55 @@
+<!ELEMENT RetornoConsulta (Cabecalho, NFe)>
+<!ATTLIST RetornoConsulta xmlns:ns2 CDATA #IMPLIED
+                         xmlns:ns3 CDATA #REQUIRED>
+
+<!ELEMENT Cabecalho (Sucesso)>
+<!ELEMENT Sucesso (#PCDATA)>
+
+<!ELEMENT NFe (Assinatura, ChaveNFe, DataEmissaoNFe, NumeroLote, ChaveRPS, TipoRPS, DataEmissaoRPS, CPFCNPJPrestador, RazaoSocialPrestador, EnderecoPrestador, StatusNFe, TributacaoNFe, OpcaoSimples, ValorServicos, CodigoServico, AliquotaServicos, ValorISS, ValorCredito, ISSRetido, CPFCNPJTomador, RazaoSocialTomador, EnderecoTomador, Discriminacao, ValorCargaTributaria, PercentualCargaTributaria, FonteCargaTributaria)>
+
+<!ELEMENT Assinatura (#PCDATA)>
+<!ELEMENT ChaveNFe (InscricaoPrestador, NumeroNFe, CodigoVerificacao)>
+<!ELEMENT InscricaoPrestador (#PCDATA)>
+<!ELEMENT NumeroNFe (#PCDATA)>
+<!ELEMENT CodigoVerificacao (#PCDATA)>
+<!ELEMENT DataEmissaoNFe (#PCDATA)>
+<!ELEMENT NumeroLote (#PCDATA)>
+<!ELEMENT ChaveRPS (InscricaoPrestador, SerieRPS, NumeroRPS)>
+<!ELEMENT SerieRPS (#PCDATA)>
+<!ELEMENT NumeroRPS (#PCDATA)>
+<!ELEMENT TipoRPS (#PCDATA)>
+<!ELEMENT DataEmissaoRPS (#PCDATA)>
+
+<!ELEMENT CPFCNPJPrestador (CNPJ, CPF?)>
+<!ELEMENT CNPJ (#PCDATA)>
+<!ELEMENT CPF (#PCDATA)>
+<!ELEMENT RazaoSocialPrestador (#PCDATA)>
+
+<!ELEMENT EnderecoPrestador (TipoLogradouro, Logradouro, NumeroEndereco, ComplementoEndereco?, Bairro, Cidade, UF, CEP)>
+<!ELEMENT TipoLogradouro (#PCDATA)>
+<!ELEMENT Logradouro (#PCDATA)>
+<!ELEMENT NumeroEndereco (#PCDATA)>
+<!ELEMENT ComplementoEndereco (#PCDATA)>
+<!ELEMENT Bairro (#PCDATA)>
+<!ELEMENT Cidade (#PCDATA)>
+<!ELEMENT UF (#PCDATA)>
+<!ELEMENT CEP (#PCDATA)>
+
+<!ELEMENT StatusNFe (#PCDATA)>
+<!ELEMENT TributacaoNFe (#PCDATA)>
+<!ELEMENT OpcaoSimples (#PCDATA)>
+<!ELEMENT ValorServicos (#PCDATA)>
+<!ELEMENT CodigoServico (#PCDATA)>
+<!ELEMENT AliquotaServicos (#PCDATA)>
+<!ELEMENT ValorISS (#PCDATA)>
+<!ELEMENT ValorCredito (#PCDATA)>
+<!ELEMENT ISSRetido (#PCDATA)>
+
+<!ELEMENT CPFCNPJTomador (CNPJ?, CPF?)>
+<!ELEMENT RazaoSocialTomador (#PCDATA)>
+<!ELEMENT EnderecoTomador (Logradouro, NumeroEndereco, Bairro, Cidade, UF, CEP)>
+
+<!ELEMENT Discriminacao (#PCDATA)>
+<!ELEMENT ValorCargaTributaria (#PCDATA)>
+<!ELEMENT PercentualCargaTributaria (#PCDATA)>
+<!ELEMENT FonteCargaTributaria (#PCDATA)>
