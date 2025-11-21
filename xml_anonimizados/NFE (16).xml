@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+  <NFe>
+    <infNFe Id="NFe35240215436940000103550071642997111140583274" versao="4.00">
+      <ide>
+        <cUF>35</cUF>
+        <cNF>14058327</cNF>
+        <natOp>Venda de merc adq ou rec terc, destinada a nao contribuinte</natOp>
+        <mod>55</mod>
+        <serie>7</serie>
+        <nNF>164299711</nNF>
+        <dhEmi>2024-02-23T01:17:25-03:00</dhEmi>
+        <tpNF>1</tpNF>
+        <idDest>2</idDest>
+        <cMunFG>3550308</cMunFG>
+        <tpImp>1</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>4</cDV>
+        <tpAmb>1</tpAmb>
+        <finNFe>1</finNFe>
+        <indFinal>1</indFinal>
+        <indPres>2</indPres>
+        <indIntermed>0</indIntermed>
+        <procEmi>0</procEmi>
+        <verProc>1.0</verProc>
+      </ide>
+      <emit>
+        <CNPJ>REMOVIDO</CNPJ>
+        <xNome>ANONIMO</xNome>
+        <xFant>ANONIMO</xFant>
+        <enderEmit>
+          <xLgr>ANONIMO</xLgr>
+          <nro>ANONIMO</nro>
+          <xBairro>ANONIMO</xBairro>
+          <cMun>ANONIMO</cMun>
+          <xMun>ANONIMO</xMun>
+          <UF>ANONIMO</UF>
+          <CEP>ANONIMO</CEP>
+          <cPais>ANONIMO</cPais>
+          <xPais>ANONIMO</xPais>
+        </enderEmit>
+        <IE>145214552117</IE>
+        <IEST>9000022229</IEST>
+        <CRT>3</CRT>
+      </emit>
+      <dest>
+        <CPF>REMOVIDO</CPF>
+        <xNome>ANONIMO</xNome>
+        <enderDest>
+          <xLgr>ANONIMO</xLgr>
+          <nro>ANONIMO</nro>
+          <xCpl>ANONIMO</xCpl>
+          <xBairro>ANONIMO</xBairro>
+          <cMun>ANONIMO</cMun>
+          <xMun>ANONIMO</xMun>
+          <UF>ANONIMO</UF>
+          <CEP>ANONIMO</CEP>
+          <cPais>ANONIMO</cPais>
+          <fone>ANONIMO</fone>
+        </enderDest>
+        <indIEDest>9</indIEDest>
+      </dest>
+      <det nItem="1">
+        <prod>
+          <cProd>B0BDWVBMMX</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>Box Garotos Mortos: A Serie Completa (inclui capitulo extra exclusivo) (eBook Kindle)</xProd>
+          <NCM>00000000</NCM>
+          <CFOP>6108</CFOP>
+          <uCom>UN</uCom>
+          <qCom>1</qCom>
+          <vUnCom>24.9900000000</vUnCom>
+          <vProd>24.99</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>UN</uTrib>
+          <qTrib>1</qTrib>
+          <vUnTrib>24.9900000000</vUnTrib>
+          <indTot>1</indTot>
+          <xPed>7ac6ea15-e098-7</xPed>
+        </prod>
+        <imposto>
+          <vTotTrib>3.89</vTotTrib>
+          <ICMS>
+            <ICMS40>
+              <orig>0</orig>
+              <CST>41</CST>
+            </ICMS40>
+          </ICMS>
+          <IPI>
+            <cEnq>999</cEnq>
+            <IPINT>
+              <CST>53</CST>
+            </IPINT>
+          </IPI>
+          <PIS>
+            <PISNT>
+              <CST>06</CST>
+            </PISNT>
+          </PIS>
+          <COFINS>
+            <COFINSNT>
+              <CST>06</CST>
+            </COFINSNT>
+          </COFINS>
+          <ICMSUFDest>
+            <vBCUFDest>0.00</vBCUFDest>
+            <vBCFCPUFDest>0.00</vBCFCPUFDest>
+            <pFCPUFDest>0.0000</pFCPUFDest>
+            <pICMSUFDest>17.0000</pICMSUFDest>
+            <pICMSInter>12.00</pICMSInter>
+            <pICMSInterPart>100.0000</pICMSInterPart>
+            <vFCPUFDest>0.00</vFCPUFDest>
+            <vICMSUFDest>0.00</vICMSUFDest>
+            <vICMSUFRemet>0.00</vICMSUFRemet>
+          </ICMSUFDest>
+        </imposto>
+      </det>
+      <total>
+        <ICMSTot>
+          <vBC>0.00</vBC>
+          <vICMS>0.00</vICMS>
+          <vICMSDeson>0.00</vICMSDeson>
+          <vFCPUFDest>0.00</vFCPUFDest>
+          <vICMSUFDest>0.00</vICMSUFDest>
+          <vICMSUFRemet>0.00</vICMSUFRemet>
+          <vFCP>0.00</vFCP>
+          <vBCST>0.00</vBCST>
+          <vST>0.00</vST>
+          <vFCPST>0.00</vFCPST>
+          <vFCPSTRet>0.00</vFCPSTRet>
+          <vProd>24.99</vProd>
+          <vFrete>0.00</vFrete>
+          <vSeg>0.00</vSeg>
+          <vDesc>0.00</vDesc>
+          <vII>0.00</vII>
+          <vIPI>0.00</vIPI>
+          <vIPIDevol>0.00</vIPIDevol>
+          <vPIS>0.00</vPIS>
+          <vCOFINS>0.00</vCOFINS>
+          <vOutro>0.00</vOutro>
+          <vNF>24.99</vNF>
+          <vTotTrib>3.89</vTotTrib>
+        </ICMSTot>
+      </total>
+      <transp>
+        <modFrete>9</modFrete>
+      </transp>
+      <pag>
+        <detPag>
+          <indPag>0</indPag>
+          <tPag>17</tPag>
+          <vPag>24.99</vPag>
+        </detPag>
+      </pag>
+      <infAdic>
+        <infAdFisco>Nao incidencia ICMS, Art. 7, XIII, RICMS/SP; Imunidade: Art. 150, VI, d, CF; Art. 18, I, RIPI</infAdFisco>
+        <infCpl>Valor aproximado dos tributos: Federal - R$ 3.36 (13.45%); Estadual - R$ 0.00 (0.00%); Municipal - R$ 0.53 (2.11%) - Fonte IBPT. EC 87/2015  ASIN: B0BDWVBMMX: DIFAL da UF destino R$ 0.00 + FCP R$ 0.00; DIFAL da UF Origem R$ 0.00. Numero do pedido da compra: D01-1290977-3673864</infCpl>
+        <obsCont xCampo="icmsTransporte">
+          <xTexto>0</xTexto>
+        </obsCont>
+      </infAdic>
+      <compra/>
+    </infNFe>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+        <Reference URI="#NFe35240215436940000103550071642997111140583274">
+          <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+            <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+          </Transforms>
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+          <DigestValue>o8uUfP48pedQPsMnVLtdXXBIMDk=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>qYajBbiC5AFcUdRt6I7nW7ozuas2Z5TqMciOPxFH2l4PbgiCVIIG5hJ+naTXuqEcKogXFuK+CX21&#13;
+KZaCLviD5vjQdjBASAsaO9A9nchy/ErPefLoicBpljtbZ5ie8ZWa20qwf2ssYA59ZsdJWV8awYkZ&#13;
+SJG9MBr8bXa6KO2PEGUlXnyJWooIg4Sc2jcP+c681ShTBWTqYtAQ9XiK4NankZ5zxhKEWonT9/+V&#13;
+Xd+BIsLG7drYHdyIDwAV2xHqVGpIc72ulyQzZ8s9qr6h+w9LexAuqYr4sFeeepAjCFO1RtqJWp4j&#13;
+ZF/MezBI8hh863pi3ALw9LIO0Gp/g+Ya1Lw4OQ==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>MIIHSDCCBTCgAwIBAgIIfg4jBRls83QwDQYJKoZIhvcNAQELBQAwWTELMAkGA1UEBhMCQlIxEzAR&#13;
+BgNVBAoTCklDUC1CcmFzaWwxFTATBgNVBAsTDEFDIFNPTFVUSSB2NTEeMBwGA1UEAxMVQUMgU09M&#13;
+VVRJIE11bHRpcGxhIHY1MB4XDTIzMDYwNTE0MzAwMFoXDTI0MDYwNDE0MzAwMFowgfYxCzAJBgNV&#13;
+BAYTAkJSMRMwEQYDVQQKEwpJQ1AtQnJhc2lsMQswCQYDVQQIEwJTUDESMBAGA1UEBxMJU2FvIFBh&#13;
+dWxvMR4wHAYDVQQLExVBQyBTT0xVVEkgTXVsdGlwbGEgdjUxFzAVBgNVBAsTDjE4Nzk5ODk3MDAw&#13;
+MTIwMRkwFwYDVQQLExBWaWRlb2NvbmZlcmVuY2lhMRowGAYDVQQLExFDZXJ0aWZpY2FkbyBQSiBB&#13;
+MTFBMD8GA1UEAxM4QU1BWk9OIFNFUlZJQ09TIERFIFZBUkVKTyBETyBCUkFTSUwgTFREQS46MTU0&#13;
+MzY5NDAwMDAxMDMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDPRc33i6xFFzLQD1Yz&#13;
+AScWJoH59ESjADpALZpRaIsdUTytDblGXdGQQFeUARz81k/icNfcqppLAL5eCaU4sOv3u7TqUIWy&#13;
+wcORYAJd3VdQ3FW2CkchUS3xOw/Qv1YZ5NRahx9JRGEzHg6EiUtmhihN8MfKqi1draVNzhlYIGdx&#13;
+Bf8d3/OXXV0nkDSLEbYVLliMkVs3jI+p9R8x1z1MYdJnafjK+NIYb7ElIpDkySVylPkbk0sjYEnZ&#13;
+z4ZpMy40sFWCBoGXtUOEAX9e4KPinQQW6sEq1N+Q+uTtWoN494EM0vtqnselnUyj++/XHwoHe3z/&#13;
+OVRAAIYC5cpVGLWAqKcdAgMBAAGjggJ0MIICcDAJBgNVHRMEAjAAMB8GA1UdIwQYMBaAFMVS7SWA&#13;
+Cd+cgsifR8bdtF8x3bmxMFQGCCsGAQUFBwEBBEgwRjBEBggrBgEFBQcwAoY4aHR0cDovL2NjZC5h&#13;
+Y3NvbHV0aS5jb20uYnIvbGNyL2FjLXNvbHV0aS1tdWx0aXBsYS12NS5wN2Iwga8GA1UdEQSBpzCB&#13;
+pIERZ3VpcGVsQGFtYXpvbi5jb22gIQYFYEwBAwKgGBMWREFOSUVMIE1BWklOSSBEQSBST0NIQaAZ&#13;
+BgVgTAEDA6AQEw4xNTQzNjk0MDAwMDEwM6A4BgVgTAEDBKAvEy0wNzA3MTk3ODA0MzA2NjgxNzE4&#13;
+MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDCgFwYFYEwBAwegDhMMMDAwMDAwMDAwMDAwMF0GA1Ud&#13;
+IARWMFQwUgYGYEwBAgEmMEgwRgYIKwYBBQUHAgEWOmh0dHA6Ly9jY2QuYWNzb2x1dGkuY29tLmJy&#13;
+L2RvY3MvZHBjLWFjLXNvbHV0aS1tdWx0aXBsYS5wZGYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsG&#13;
+AQUFBwMEMIGMBgNVHR8EgYQwgYEwPqA8oDqGOGh0dHA6Ly9jY2QuYWNzb2x1dGkuY29tLmJyL2xj&#13;
+ci9hYy1zb2x1dGktbXVsdGlwbGEtdjUuY3JsMD+gPaA7hjlodHRwOi8vY2NkMi5hY3NvbHV0aS5j&#13;
+b20uYnIvbGNyL2FjLXNvbHV0aS1tdWx0aXBsYS12NS5jcmwwHQYDVR0OBBYEFD9Y38kk1PiZjfV3&#13;
+6xQcgo/BoSjmMA4GA1UdDwEB/wQEAwIF4DANBgkqhkiG9w0BAQsFAAOCAgEApxXi81vplqxxZDXN&#13;
+FfbOMKiOwCwq2z8BjhjnPetHx1HNQ6pybRPlaxZZUlL/DlFeCxKtO5qEsCT5/3FDz86cEtjc6MVS&#13;
+hrEPdj6Hs6WemGmBDxzm2Y4pluTFdZic5rE8aBas9Bb/FO9wpBRrj2GCFJgkKuPOPc1pzDXRyPs7&#13;
+0pbDdZXltV3T0lQBjwljNx0OwFs5Tid9o9zCKrFFuSoqHkmTqHucdWyPqw0GmFzywH8dLyc6emEl&#13;
+cqGHbgrzzemS97S07J7eyO6E1l4SmZf7/4ukqfbjQZ0Fswrxk/JgWQptsC7BYnhDu4fGZ4UYDayT&#13;
+K5ztH5Z3S/9Mha2NN5i66aL1SoQf9r6Wn/lJFvxn3skCASrR//W3XE9nKZ9f+mZmVj/pGh25GPPl&#13;
+Y/B8gXJEJpr22jRzqPCXcaZrTdcylPBcALeNh6bWJ9wav2AXONcPG1p8RFXdbEAqEFwH9/eRLjxs&#13;
+d7r4lZyXN9rPr203wZKxGIR4ZM3CEMDaC8c45qxKgnvsKWpxIZbSm4Et8CtxPzaFWz5aT8QiEIGn&#13;
+x1WMIS3qiSuffrSdxF+LLDT3hBjZmC148a2xneocasOkBM3HjerY9Pbx35XZJploVpSSLKrFdUXe&#13;
+YyiSaWH5eROzYM+sjAWkYsc2ZbmL7FTicGY1zFCzXibCkezdlzsn96xl5mk=</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+  </NFe>
+  <protNFe versao="4.00">
+    <infProt>
+      <tpAmb>1</tpAmb>
+      <verAplic>SP_NFE_PL009_V4</verAplic>
+      <chNFe>35240215436940000103550071642997111140583274</chNFe>
+      <dhRecbto>2024-02-23T01:17:28-03:00</dhRecbto>
+      <nProt>135240391071023</nProt>
+      <digVal>o8uUfP48pedQPsMnVLtdXXBIMDk=</digVal>
+      <cStat>100</cStat>
+      <xMotivo>Autorizado o uso da NF-e</xMotivo>
+    </infProt>
+  </protNFe>
+</nfeProc>

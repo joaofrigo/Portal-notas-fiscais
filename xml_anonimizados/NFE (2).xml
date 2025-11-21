@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+  <NFe>
+    <infNFe Id="NFe43251115436940001177550010354049631130652241" versao="4.00">
+      <ide>
+        <cUF>43</cUF>
+        <cNF>13065224</cNF>
+        <natOp>Venda de merc adquirida ou recebida de terceiros</natOp>
+        <mod>55</mod>
+        <serie>1</serie>
+        <nNF>35404963</nNF>
+        <dhEmi>2025-11-21T01:47:51-03:00</dhEmi>
+        <tpNF>1</tpNF>
+        <idDest>1</idDest>
+        <cMunFG>4313375</cMunFG>
+        <tpImp>1</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>1</cDV>
+        <tpAmb>1</tpAmb>
+        <finNFe>1</finNFe>
+        <indFinal>1</indFinal>
+        <indPres>2</indPres>
+        <indIntermed>0</indIntermed>
+        <procEmi>0</procEmi>
+        <verProc>1.0</verProc>
+      </ide>
+      <emit>
+        <CNPJ>REMOVIDO</CNPJ>
+        <xNome>ANONIMO</xNome>
+        <xFant>ANONIMO</xFant>
+        <enderEmit>
+          <xLgr>ANONIMO</xLgr>
+          <nro>ANONIMO</nro>
+          <xBairro>ANONIMO</xBairro>
+          <cMun>ANONIMO</cMun>
+          <xMun>ANONIMO</xMun>
+          <UF>ANONIMO</UF>
+          <CEP>ANONIMO</CEP>
+          <cPais>ANONIMO</cPais>
+          <xPais>ANONIMO</xPais>
+        </enderEmit>
+        <IE>3820025709</IE>
+        <CRT>3</CRT>
+      </emit>
+      <dest>
+        <CPF>REMOVIDO</CPF>
+        <xNome>ANONIMO</xNome>
+        <enderDest>
+          <xLgr>ANONIMO</xLgr>
+          <nro>ANONIMO</nro>
+          <xCpl>ANONIMO</xCpl>
+          <xBairro>ANONIMO</xBairro>
+          <cMun>ANONIMO</cMun>
+          <xMun>ANONIMO</xMun>
+          <UF>ANONIMO</UF>
+          <CEP>ANONIMO</CEP>
+          <cPais>ANONIMO</cPais>
+        </enderDest>
+        <indIEDest>9</indIEDest>
+      </dest>
+      <det nItem="1">
+        <prod>
+          <cProd>B098CL79W1</cProd>
+          <cEAN>7500435186858</cEAN>
+          <xProd>Downy Perfume Collection Mistico - Amaciante Concentrado, 3L</xProd>
+          <NCM>38099190</NCM>
+          <CEST>1100800</CEST>
+          <CFOP>5102</CFOP>
+          <uCom>UN</uCom>
+          <qCom>1</qCom>
+          <vUnCom>39.9000000000</vUnCom>
+          <vProd>39.90</vProd>
+          <cEANTrib>7500435186858</cEANTrib>
+          <uTrib>UN</uTrib>
+          <qTrib>1</qTrib>
+          <vUnTrib>39.9000000000</vUnTrib>
+          <indTot>1</indTot>
+          <xPed>435187450331301</xPed>
+          <nFCI>8EB024F1-016A-4CBB-BBC6-968EF6C62945</nFCI>
+        </prod>
+        <imposto>
+          <vTotTrib>12.15</vTotTrib>
+          <ICMS>
+            <ICMS00>
+              <orig>5</orig>
+              <CST>00</CST>
+              <modBC>3</modBC>
+              <vBC>39.90</vBC>
+              <pICMS>17.0000</pICMS>
+              <vICMS>6.78</vICMS>
+            </ICMS00>
+          </ICMS>
+          <IPI>
+            <cEnq>999</cEnq>
+            <IPINT>
+              <CST>53</CST>
+            </IPINT>
+          </IPI>
+          <PIS>
+            <PISAliq>
+              <CST>01</CST>
+              <vBC>33.12</vBC>
+              <pPIS>1.6500</pPIS>
+              <vPIS>0.55</vPIS>
+            </PISAliq>
+          </PIS>
+          <COFINS>
+            <COFINSAliq>
+              <CST>01</CST>
+              <vBC>33.12</vBC>
+              <pCOFINS>7.6000</pCOFINS>
+              <vCOFINS>2.52</vCOFINS>
+            </COFINSAliq>
+          </COFINS>
+        </imposto>
+      </det>
+      <det nItem="2">
+        <prod>
+          <cProd>B0C4M2SYF8</cProd>
+          <cEAN>7896089089943</cEAN>
+          <xProd>Cafe L'OR Soluvel Classique Pote de Vidro 130g</xProd>
+          <NCM>21011110</NCM>
+          <CEST>1710700</CEST>
+          <CFOP>5102</CFOP>
+          <uCom>UN</uCom>
+          <qCom>2</qCom>
+          <vUnCom>22.7900000000</vUnCom>
+          <vProd>45.58</vProd>
+          <cEANTrib>7896089089943</cEANTrib>
+          <uTrib>UN</uTrib>
+          <qTrib>2</qTrib>
+          <vUnTrib>22.7900000000</vUnTrib>
+          <indTot>1</indTot>
+          <xPed>435187450331301</xPed>
+        </prod>
+        <imposto>
+          <vTotTrib>13.88</vTotTrib>
+          <ICMS>
+            <ICMS00>
+              <orig>0</orig>
+              <CST>00</CST>
+              <modBC>3</modBC>
+              <vBC>45.58</vBC>
+              <pICMS>17.0000</pICMS>
+              <vICMS>7.75</vICMS>
+            </ICMS00>
+          </ICMS>
+          <IPI>
+            <cEnq>999</cEnq>
+            <IPINT>
+              <CST>53</CST>
+            </IPINT>
+          </IPI>
+          <PIS>
+            <PISAliq>
+              <CST>01</CST>
+              <vBC>37.84</vBC>
+              <pPIS>1.6500</pPIS>
+              <vPIS>0.62</vPIS>
+            </PISAliq>
+          </PIS>
+          <COFINS>
+            <COFINSAliq>
+              <CST>01</CST>
+              <vBC>37.84</vBC>
+              <pCOFINS>7.6000</pCOFINS>
+              <vCOFINS>2.88</vCOFINS>
+            </COFINSAliq>
+          </COFINS>
+        </imposto>
+      </det>
+      <total>
+        <ICMSTot>
+          <vBC>85.48</vBC>
+          <vICMS>14.53</vICMS>
+          <vICMSDeson>0.00</vICMSDeson>
+          <vFCP>0.00</vFCP>
+          <vBCST>0.00</vBCST>
+          <vST>0.00</vST>
+          <vFCPST>0.00</vFCPST>
+          <vFCPSTRet>0.00</vFCPSTRet>
+          <vProd>85.48</vProd>
+          <vFrete>0.00</vFrete>
+          <vSeg>0.00</vSeg>
+          <vDesc>0.00</vDesc>
+          <vII>0.00</vII>
+          <vIPI>0.00</vIPI>
+          <vIPIDevol>0.00</vIPIDevol>
+          <vPIS>1.17</vPIS>
+          <vCOFINS>5.40</vCOFINS>
+          <vOutro>0.00</vOutro>
+          <vNF>85.48</vNF>
+          <vTotTrib>26.03</vTotTrib>
+        </ICMSTot>
+      </total>
+      <transp>
+        <modFrete>0</modFrete>
+        <transporta/>
+      </transp>
+      <pag>
+        <detPag>
+          <indPag>0</indPag>
+          <tPag>17</tPag>
+          <vPag>85.48</vPag>
+          <card>
+            <tpIntegra>1</tpIntegra>
+            <CNPJ>REMOVIDO</CNPJ>
+            <cAut>NXlWznuh9M6PT4qVr3Ds93b2O5oW3akJyEx</cAut>
+          </card>
+        </detPag>
+      </pag>
+      <infAdic>
+        <infCpl>Valor aproximado dos tributos: Federal - R$ 11.50 (13.45%); Estadual - R$ 14.53 (17.00%); Municipal - R$ 0.00 (0.00%) - Fonte IBPT. A/C Camilla Hoehr dos Santos da Silveira. Numero do pedido da compra: 702-9886512-6484211</infCpl>
+        <obsCont xCampo="icmsTransporte">
+          <xTexto>1</xTexto>
+        </obsCont>
+        <obsCont xCampo="nome_dest">
+          <xTexto>A/C Camilla Hoehr dos Santos da Silveira</xTexto>
+        </obsCont>
+      </infAdic>
+      <compra/>
+      <infRespTec>
+        <CNPJ>REMOVIDO</CNPJ>
+        <xContato>Amazon Servicos de Varejo do Brasil Ltda.</xContato>
+        <email>ANONIMO</email>
+        <fone>ANONIMO</fone>
+      </infRespTec>
+    </infNFe>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+        <Reference URI="#NFe43251115436940001177550010354049631130652241">
+          <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+            <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+          </Transforms>
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+          <DigestValue>wuPBUxOpx07ujToP810K4tJeadw=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>EX3xdyRyqTpqd6LJ1ySDw3elBCfEpE00KYi3INgvlLGBo8Ss29WjvjrEXRuVmgaXa2RogXSAoxbj&#13;
+pT0E7JxwRK7ta/MOrlgzyztAkuG589QEWOITviZ2l59M35+oZOlXycSdKb0VqgcFmMJhQaXkbqnL&#13;
+8y/r+yJAXQe1Zyt2FL/Z0ohydR4TPLP2hasp5rT9j+OsQanUcb0RtdDNwYBKvJidEpxL7re0mO+T&#13;
+VllufTMxeub03HuB80ykurVzy0yDGyyCiT1TwJEbUJnt1mGAgXlBld+KgHiKnIAPsZGNZo8LXZ47&#13;
+F3LBsyeDPFmoOZ5e6JqUPMbPXrqZEioMHRwS/w==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>MIIIFTCCBf2gAwIBAgIQPZe6uf05C3um6kmKMyWN3zANBgkqhkiG9w0BAQsFADB4MQswCQYDVQQG&#13;
+EwJCUjETMBEGA1UEChMKSUNQLUJyYXNpbDE2MDQGA1UECxMtU2VjcmV0YXJpYSBkYSBSZWNlaXRh&#13;
+IEZlZGVyYWwgZG8gQnJhc2lsIC0gUkZCMRwwGgYDVQQDExNBQyBDZXJ0aXNpZ24gUkZCIEc1MB4X&#13;
+DTI0MTIwOTIwNDYyMloXDTI1MTIwOTIwNDYyMlowggEJMQswCQYDVQQGEwJCUjETMBEGA1UECgwK&#13;
+SUNQLUJyYXNpbDELMAkGA1UECAwCU1AxEjAQBgNVBAcMCVNhbyBQYXVsbzEZMBcGA1UECwwQVmlk&#13;
+ZW9Db25mZXJlbmNpYTEXMBUGA1UECwwONDAwMDI1NzkwMDAxNDYxNjA0BgNVBAsMLVNlY3JldGFy&#13;
+aWEgZGEgUmVjZWl0YSBGZWRlcmFsIGRvIEJyYXNpbCAtIFJGQjEWMBQGA1UECwwNUkZCIGUtQ05Q&#13;
+SiBBMTFAMD4GA1UEAww3QU1BWk9OIFNFUlZJQ09TIERFIFZBUkVKTyBETyBCUkFTSUwgTFREQTox&#13;
+NTQzNjk0MDAwMDEwMzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKQX9Vyt65ihUQBi&#13;
+j96gL5s1KV2e6flMYZBs63sI/P3eNWOQ1z/0KE1du2xjJ+m33stzP1XzCs8YJBTgG0PhEFj56C1c&#13;
+rPrIkUgrqtZTyT0zIP1zvrmeb7EMq+ZYfQLjnN6Nas5fjTV4b+bqVE3s7n4JZJgABMgy7cAMkeBM&#13;
+Y12Joz9tO1xZJ7O5s1bpME6mYV9ItSsRkn+A31oxuvIHKQEWRFGH/zxx+XQ6Fjqe/6Q5RGwRhsBG&#13;
+jOBG3BbE/PBK7lXQ2UVh06GmqUU06OZ+X+FiJ1vlEBkDqjmDfRzGixo9Ixn+hIISYnoGnf6F/i8w&#13;
+mvmCph1rNADUmw3IjrXv2B8CAwEAAaOCAwYwggMCMIG1BgNVHREEga0wgaqgPQYFYEwBAwSgNAQy&#13;
+MDcwNzE5NzgwNDMwNjY4MTcxODAwMDAwMDAwMDAwMDAwMDAwMTA1NTI2MjE0SUZQUkqgIQYFYEwB&#13;
+AwKgGAQWREFOSUVMIE1BWklOSSBEQSBST0NIQaAZBgVgTAEDA6AQBA4xNTQzNjk0MDAwMDEwM6AX&#13;
+BgVgTAEDB6AOBAwwMDAwMDAwMDAwMDCBEmRtYXppbmlAYW1hem9uLmNvbTAJBgNVHRMEAjAAMB8G&#13;
+A1UdIwQYMBaAFFN9f52+0WHQILran+OJpxNzWM1CMH8GA1UdIAR4MHYwdAYGYEwBAgEMMGowaAYI&#13;
+KwYBBQUHAgEWXGh0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8v&#13;
+ZHBjL0FDX0NlcnRpc2lnbl9SRkIvRFBDX0FDX0NlcnRpc2lnbl9SRkIucGRmMIG8BgNVHR8EgbQw&#13;
+gbEwV6BVoFOGUWh0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8v&#13;
+bGNyL0FDQ2VydGlzaWduUkZCRzUvTGF0ZXN0Q1JMLmNybDBWoFSgUoZQaHR0cDovL2ljcC1icmFz&#13;
+aWwub3V0cmFsY3IuY29tLmJyL3JlcG9zaXRvcmlvL2xjci9BQ0NlcnRpc2lnblJGQkc1L0xhdGVz&#13;
+dENSTC5jcmwwDgYDVR0PAQH/BAQDAgXgMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDCB&#13;
+rAYIKwYBBQUHAQEEgZ8wgZwwXwYIKwYBBQUHMAKGU2h0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2ln&#13;
+bi5jb20uYnIvcmVwb3NpdG9yaW8vY2VydGlmaWNhZG9zL0FDX0NlcnRpc2lnbl9SRkJfRzUucDdj&#13;
+MDkGCCsGAQUFBzABhi1odHRwOi8vb2NzcC1hYy1jZXJ0aXNpZ24tcmZiLmNlcnRpc2lnbi5jb20u&#13;
+YnIwDQYJKoZIhvcNAQELBQADggIBABFf5HS8+v3H8tApaqAMlnZ/nfNmzQIBpNJNUbP9PYrLInjF&#13;
+Rg+du4+P/P2IbZUFt5YMiWu28cwtqYFJouMrmNdbYLNwbnKS2KRziT5C50xOGdzkig3oJ0+DPYgO&#13;
+dNrK40so0obXcn2cbAmQGNYX9pwRRSK3SZm8V6lJBAhSbRln6J9xdzCJc/1+0voHrLAtcCbKxsfK&#13;
+84CcbAoV39sklpEh5l6xnjteTLnyo/Jny/bBepNST/yhRZ5xE0QMgsB1JHv4Z8/kYlvTqX0Ir10J&#13;
+fUAn9Y015Ogm9phkaFtV99Jqzz4Mzr/2pK4lYosAiq/vLC9QaDbD2wTgOXuJwaZ9Cwb6NXaYIxOZ&#13;
+Oqp2e7ohFncLYWaiVDGUhBitLOVH8Q8HUGFbDkjLS2LJV02W19awIUdFjsqi78gcy6NhIQPn95Li&#13;
+o3DgDGPrAlH5vAHjo7xtkXBKOqjPUXs1zsZWxQ/UMR/atk8Jh+EAkU6srH/RmXYAn3R/cYDcPT/4&#13;
+hyXtNmfj/DsgkIr+/QwUT7FGHZqXbP7Qo8Z2Eg4PmCUAKSUOsKqRgkr6il02bn58zyFc9q/Ee3Bl&#13;
+YOd/oASwUgS5UkZkaR10uZlPYfFmT6Zmk81prUsIvXqGXBolWUfce6UY10b/b+k+HIGinXMH7YjJ&#13;
+TFxCo4aoKzoSB0WmPkyRw7g4jK1x</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+  </NFe>
+  <protNFe versao="4.00">
+    <infProt>
+      <tpAmb>1</tpAmb>
+      <verAplic>RS2511071706DR</verAplic>
+      <chNFe>43251115436940001177550010354049631130652241</chNFe>
+      <dhRecbto>2025-11-21T01:48:01-03:00</dhRecbto>
+      <nProt>243250361537465</nProt>
+      <digVal>wuPBUxOpx07ujToP810K4tJeadw=</digVal>
+      <cStat>100</cStat>
+      <xMotivo>Autorizado o uso da NF-e</xMotivo>
+    </infProt>
+  </protNFe>
+</nfeProc>
