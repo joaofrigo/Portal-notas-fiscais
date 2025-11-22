@@ -1,6 +1,6 @@
-# README (Markdown Estilizado)
+# README
 
-Esse aplicativo web que usa php, laravel e analisa XMLS, tem como objetivo principal ler notas fiscais do modelo 4.0 no contexto do Brasil e extrair informações relevantes para o usuário. A aplicação é bem simples de configurar para uso próprio, mas existem algumas etapas importantes que podem passar despercebidas. Aqui está o passo a passo:
+Esse aplicativo web que usa php, laravel e analisa XMLS, tem como objetivo principal ler notas fiscais do modelo 4.0 e extrair informações relevantes para o usuário. A aplicação é bem simples de configurar para uso próprio, mas existem algumas etapas importantes que podem passar despercebidas. Aqui está o passo a passo:
 
 ## Para conseguir acessar o framework
 Para conseguir acessar o framework, primeiro precisamos de **PHP** e do **Composer**. PHP é só baixar no site oficial, composer também, no site oficial. A diferença é que o composer tem instalador.
@@ -30,8 +30,6 @@ Onde o arquivo estará localizado (se ele estiver vazio, copie e cole as configu
 
 <img width="618" height="299" alt="image" src="https://github.com/user-attachments/assets/870c7715-6ea0-4c27-9a3e-c8f5e710c055" />
 
----
-
 Agora configurado corretamente o php, configuramos o composer. Ele é bem mais simples, no site oficial contém um instalador e é só usa-lo. No meu caso, não precisei configurar o path do composer.
 
 ---
@@ -49,7 +47,7 @@ E pronto, o aplicativo está de pé, é só acessar pelo seu navegador.
 
 ---
 
-## Scripts adicionais (importante)
+## Scripts adicionais
 
 Existem dois scripts adicionais que não estão no aplicativo web, mas que são igualmente úteis em manipular XML.
 
@@ -75,7 +73,6 @@ Ele tem algumas opções de manipulação de xml, que são:
 - **Opção E** : Gera um único XML da NF com todos os produtos de todas as notas, ordenados por preço crescente.  
 - **Opção F** : Executa todas as transformações (A, B, C, D, E) em sequência.
 
----
 
 ## Chamada do script
 
