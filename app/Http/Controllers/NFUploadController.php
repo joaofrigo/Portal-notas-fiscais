@@ -27,10 +27,13 @@ class NFUploadController extends Controller
             $dom->formatOutput = false;
             $dom->loadXML($conteudo);
 
+            // Detecta tipo de XML
             if (strpos($conteudo, '<nfeProc') !== false) {
                 $dtdPath = str_replace('\\', '/', base_path('validadores/nfe.dtd'));
+                $xsdPath = str_replace('\\', '/', base_path('validadores/nfe.xsd')); // XSD completo
             } elseif (strpos($conteudo, '<ns3:RetornoConsulta') !== false) {
                 $dtdPath = str_replace('\\', '/', base_path('validadores/nfse.dtd'));
+                $xsdPath = null; // NFSe não valida XSD aqui
             } else {
                 $mensagens[] = "Tipo de XML não reconhecido: $filename";
                 continue;
@@ -52,17 +55,36 @@ class NFUploadController extends Controller
             $dom->formatOutput = false;
             $dom->loadXML($xmlWithDoctype);
 
+            // Validação DTD
             if (!$dom->validate()) {
                 $errors = libxml_get_errors();
                 $mensagemErro = "Falha na validação DTD: $filename\n";
                 foreach ($errors as $error) {
-                    $mensagemErro .= $this->formatLibxmlError($error, "    "); // recuo de 4 espaços
+                    $mensagemErro .= $this->formatLibxmlError($error, "    ");
                 }
                 libxml_clear_errors();
                 $mensagens[] = $mensagemErro;
                 continue;
             }
 
+            // Validação XSD (somente NF-e)
+            if ($xsdPath && file_exists($xsdPath)) {
+                $domXSD = new \DOMDocument();
+                $domXSD->loadXML($conteudo);
+
+                if (!$domXSD->schemaValidate($xsdPath)) {
+                    $errors = libxml_get_errors();
+                    $mensagemErro = "Falha na validação XSD: $filename\n";
+                    foreach ($errors as $error) {
+                        $mensagemErro .= $this->formatLibxmlError($error, "    ");
+                    }
+                    libxml_clear_errors();
+                    $mensagens[] = $mensagemErro;
+                    continue;
+                }
+            }
+
+            // Salva no banco
             $registro = NotaFiscal::create([
                 'nome_arquivo' => $filename,
                 'xml_conteudo' => $conteudo,

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.w3.org/2000/09/xmldsig#"
+           xmlns="http://www.w3.org/2000/09/xmldsig#"
+           elementFormDefault="qualified">
+
+    <xs:element name="Signature">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="SignedInfo"/>
+                <xs:element ref="SignatureValue"/>
+                <xs:element ref="KeyInfo"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="SignedInfo">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="CanonicalizationMethod"/>
+                <xs:element ref="SignatureMethod"/>
+                <xs:element ref="Reference"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="CanonicalizationMethod">
+        <xs:complexType>
+            <xs:attribute name="Algorithm" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="SignatureMethod">
+        <xs:complexType>
+            <xs:attribute name="Algorithm" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Reference">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Transforms"/>
+                <xs:element ref="DigestMethod"/>
+                <xs:element ref="DigestValue"/>
+            </xs:sequence>
+            <xs:attribute name="URI" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Transforms">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Transform" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Transform">
+        <xs:complexType>
+            <xs:attribute name="Algorithm" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="DigestMethod">
+        <xs:complexType>
+            <xs:attribute name="Algorithm" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="DigestValue" type="xs:string"/>
+    <xs:element name="SignatureValue" type="xs:string"/>
+
+    <xs:element name="KeyInfo">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="X509Data"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="X509Data">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="X509Certificate" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="X509Certificate" type="xs:string"/>
+
+</xs:schema>
