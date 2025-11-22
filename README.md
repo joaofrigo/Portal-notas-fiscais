@@ -36,9 +36,10 @@ Agora configurado corretamente o php, configuramos o composer. Ele é bem mais s
 ## Executando a aplicação
 
 Temos tudo pronto para iniciar agora o servidor web localmente.  
-É só baixar o repositório e ir onde está o arquivo **artisan**, lá, use o comando:
+É só baixar o repositório e ir onde está o arquivo **artisan**, lá, use os comandos:
 
 ```
+php artisan migrate
 php artisan serve
 ```
 
