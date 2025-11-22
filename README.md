@@ -1,59 +1,48 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Esse aplicativo web que usa php, laravel e analisa XMLS, tem como objetivo principal ler notas fiscais do modelo 4.0 no contexto do Brasil e extrair informações relevantes para o usuário. A aplicação é bem simples de configurar para uso próprio, mas existem algumas etapas importantes que podem passar despercebidas. Aqui está o passo a passo:
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Para conseguir acessar o framework, primeiro precisamos de PHP e do Composer. PHP é só baixar no site oficial, composer também, no site oficial. A diferença é que o composer tem instalador.
 
-## About Laravel
+(precisamos ter anteriormente 7-zip instalado e no path, o php e composer usam ele para descompactar arquivos)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Configuração PHP:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Criar pasta pro php e colocar no path. Colocar dentro da pasta a versão do php que quer, baixada diretamente do site. Essa aplicação usou a versão: 
+VS17 x64 Non Thread Safe - 2025-Nov-18 08:24:22 UTC
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- Temos como ponto central dentro da pasta do php, o php.ini. Nele iremos configurar a inicialização do php corretamente para que nosso aplicativo funcione. Encontre as seguintes extensões e retire o ";" detrás delas (";" significa comentário no php.ini):
+- extension=xsl
+- extension=fileinfo
+- extension=openssl
+- extension=mbstring
+- extension=curl
+Onde o arquivo estará localizado (se ele estiver vazio, copie e cole as configurações dentro do .ini development para dentro do .ini vazio):
+<img width="618" height="299" alt="image" src="https://github.com/user-attachments/assets/870c7715-6ea0-4c27-9a3e-c8f5e710c055" />
 
-## Learning Laravel
+Agora configurado corretamente o php, configuramos o composer. Ele é bem mais simples, no site oficial contém um instalador e é só usa-lo. No meu caso, não precisei configurar o path do composer.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+Temos tudo pronto para iniciar agora o servidor web localmente. É só baixar o repositório e ir onde está o arquivo "artisan", lá, use o comando:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+php artisan serve
 
-## Laravel Sponsors
+E pronto, o aplicativo está de pé, é só acessar pelo seu navegador.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+----------------------------------------------------------------------------------------------------------------------------------------
 
-### Premium Partners
+Importante: Existem dois scripts adicionais que não estão no aplicativo web, mas que são igualmente úteis em manipular XML.
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+O primeiro é anonimizar_XML.php, é só chama-lo com "php anonimizar_XML.php" e ele vai tentar anonimizar todos os arquivos xml da pasta onde ele se encontra. Ele só funciona porém, para anonimizar notas fiscais do modelo 4.0, como é de se esperar.
 
-## Contributing
+O segundo e mais complexo é ScriptTransformador.php, ele tem algumas opções de manipulação de xml, que são:
+- Opção A : Gera, para cada NF em XML, um arquivo JSON equivalente.
+- Opção B : Gera, para cada NF, um XML contendo somente os seus produtos.
+- Opção C : Gera um único XML consolidado contendo todos os produtos de todas as NFs.
+- Opção D : Para cada NF, gera um novo XML completo da NF com os produtos ordenados alfabeticamente.
+- Opção E : Gera um único XML da NF com todos os produtos de todas as notas, ordenados por preço crescente.
+- Opção F : Executa todas as transformações (A, B, C, D, E) em sequência.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+A chamada do script é:
+Uso: php transform_options.php --option=<A|B|C|D|E|ALL> [--input=path] [--output=path]
+Exemplo: php transform_options.php --option=D --input=./nfs --output=./out
 
-## Code of Conduct
+Dentro da pasta de output, haverá uma pasta para cada opção.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
