@@ -4,8 +4,7 @@ Esse aplicativo web que usa php, laravel e analisa XMLS, tem como objetivo princ
 
 ## Para conseguir acessar o framework
 Para conseguir acessar o framework, primeiro precisamos de **PHP** e do **Composer**. PHP é só baixar no site oficial, composer também, no site oficial. A diferença é que o composer tem instalador.
-
-> (precisamos ter anteriormente 7-zip instalado e no path, o php e composer usam ele para descompactar arquivos)
+(precisamos ter anteriormente 7-zip instalado e no path, o php e composer usam ele para descompactar arquivos)
 
 ---
 
