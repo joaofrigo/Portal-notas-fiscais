@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:RetornoConsulta xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://www.prefeitura.sp.gov.br/nfe">
+  <Cabecalho Versao="1">
+    <Sucesso>true</Sucesso>
+  </Cabecalho>
+  <NFe>
+    <Assinatura>I5+QQEo/Af2nx7xdhWu21HNVbvIR6eKxfJPh5jtY5+rAkbgjm0PjixVVf2IZAFH/dQcZUgZ2UL1e9Fp+ek3mArLlkthDaELIcrQYZOgHU2BQ6HXDwVwz/rMGCrvVvqrCZFmjy6NBFNDPhI4wyUmb6sx4moAA0EL9gfNDd7efUFtZB/Vu2udHgkb6CHnWBXZivP54XPk5IKTZoLjS8V9hNwJjK1Bn0NdUIccsJXVxF9S7bd+McQ9Kdxxh5hGz3+37RaH/F77lDrn4kVmmeWo6YKr0twQH8rmQBs/EAlEsZKuizj6ZVu8H8w2SRehxDSPHIQwqcExhVigJuCF1VRdjGg==</Assinatura>
+    <ChaveNFe>
+      <InscricaoPrestador>ANONIMO</InscricaoPrestador>
+      <NumeroNFe>ANONIMO</NumeroNFe>
+      <CodigoVerificacao>ANONIMO</CodigoVerificacao>
+    </ChaveNFe>
+    <DataEmissaoNFe>2025-10-01T22:05:55</DataEmissaoNFe>
+    <NumeroLote>1574267498</NumeroLote>
+    <ChaveRPS>
+      <InscricaoPrestador>ANONIMO</InscricaoPrestador>
+      <SerieRPS>ANONIMO</SerieRPS>
+      <NumeroRPS>ANONIMO</NumeroRPS>
+    </ChaveRPS>
+    <TipoRPS>RPS</TipoRPS>
+    <DataEmissaoRPS>2025-10-01</DataEmissaoRPS>
+    <CPFCNPJPrestador>
+      <CNPJ>REMOVIDO</CNPJ>
+    </CPFCNPJPrestador>
+    <RazaoSocialPrestador>ANONIMO</RazaoSocialPrestador>
+    <EnderecoPrestador>
+      <TipoLogradouro>ANONIMO</TipoLogradouro>
+      <Logradouro>ANONIMO</Logradouro>
+      <NumeroEndereco>ANONIMO</NumeroEndereco>
+      <ComplementoEndereco>ANONIMO</ComplementoEndereco>
+      <Bairro>ANONIMO</Bairro>
+      <Cidade>ANONIMO</Cidade>
+      <UF>ANONIMO</UF>
+      <CEP>ANONIMO</CEP>
+    </EnderecoPrestador>
+    <StatusNFe>N</StatusNFe>
+    <TributacaoNFe>T</TributacaoNFe>
+    <OpcaoSimples>0</OpcaoSimples>
+    <ValorServicos>34.9</ValorServicos>
+    <CodigoServico>2965</CodigoServico>
+    <AliquotaServicos>0.02</AliquotaServicos>
+    <ValorISS>0.69</ValorISS>
+    <ValorCredito>0</ValorCredito>
+    <ISSRetido>false</ISSRetido>
+    <CPFCNPJTomador>
+      <CPF>REMOVIDO</CPF>
+    </CPFCNPJTomador>
+    <RazaoSocialTomador>ANONIMO</RazaoSocialTomador>
+    <EnderecoTomador>
+      <Logradouro>ANONIMO</Logradouro>
+      <NumeroEndereco>ANONIMO</NumeroEndereco>
+      <Bairro>ANONIMO</Bairro>
+      <Cidade>ANONIMO</Cidade>
+      <UF>ANONIMO</UF>
+      <CEP>ANONIMO</CEP>
+    </EnderecoTomador>
+    <Discriminacao>Disponibilização, sem cessão definitiva, de conteúdos de música - Music Unlimited</Discriminacao>
+    <ValorCargaTributaria>5.39</ValorCargaTributaria>
+    <PercentualCargaTributaria>0.1545</PercentualCargaTributaria>
+    <FonteCargaTributaria>IBPT</FonteCargaTributaria>
+  </NFe>
+</ns3:RetornoConsulta>

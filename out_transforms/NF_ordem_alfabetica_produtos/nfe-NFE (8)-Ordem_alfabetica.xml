@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+  <NFe>
+    <infNFe Id="NFe33220315436940001410550010038584711177763925" versao="4.00">
+      <ide>
+        <cUF>33</cUF>
+        <cNF>17776392</cNF>
+        <natOp>Venda de Mercadoria destinada a nao contribuinte</natOp>
+        <mod>55</mod>
+        <serie>1</serie>
+        <nNF>3858471</nNF>
+        <dhEmi>2022-03-29T08:41:53-03:00</dhEmi>
+        <tpNF>1</tpNF>
+        <idDest>2</idDest>
+        <cMunFG>3305109</cMunFG>
+        <tpImp>1</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>5</cDV>
+        <tpAmb>1</tpAmb>
+        <finNFe>1</finNFe>
+        <indFinal>1</indFinal>
+        <indPres>2</indPres>
+        <indIntermed>0</indIntermed>
+        <procEmi>0</procEmi>
+        <verProc>1.0</verProc>
+      </ide>
+      <emit>
+        <CNPJ>REMOVIDO</CNPJ>
+        <xNome>ANONIMO</xNome>
+        <xFant>ANONIMO</xFant>
+        <enderEmit>
+          <xLgr>ANONIMO</xLgr>
+          <nro>ANONIMO</nro>
+          <xBairro>ANONIMO</xBairro>
+          <cMun>ANONIMO</cMun>
+          <xMun>ANONIMO</xMun>
+          <UF>ANONIMO</UF>
+          <CEP>ANONIMO</CEP>
+          <cPais>ANONIMO</cPais>
+          <xPais>ANONIMO</xPais>
+        </enderEmit>
+        <IE>11821987</IE>
+        <IEST>9000048996</IEST>
+        <CRT>3</CRT>
+      </emit>
+      <dest>
+        <CPF>REMOVIDO</CPF>
+        <xNome>ANONIMO</xNome>
+        <enderDest>
+          <xLgr>ANONIMO</xLgr>
+          <nro>ANONIMO</nro>
+          <xCpl>ANONIMO</xCpl>
+          <xBairro>ANONIMO</xBairro>
+          <cMun>ANONIMO</cMun>
+          <xMun>ANONIMO</xMun>
+          <UF>ANONIMO</UF>
+          <CEP>ANONIMO</CEP>
+          <cPais>ANONIMO</cPais>
+          <fone>ANONIMO</fone>
+        </enderDest>
+        <indIEDest>9</indIEDest>
+      </dest>
+      <det nItem="1">
+        <prod>
+          <cProd>B0079Z624W</cProd>
+          <cEAN>7899026400559</cEAN>
+          <xProd>Esmalte Colorama Black, Colorama, Black</xProd>
+          <NCM>33043000</NCM>
+          <CEST>2001200</CEST>
+          <CFOP>6108</CFOP>
+          <uCom>UN</uCom>
+          <qCom>1</qCom>
+          <vUnCom>3.75</vUnCom>
+          <vProd>3.75</vProd>
+          <cEANTrib>7899026400559</cEANTrib>
+          <uTrib>UN</uTrib>
+          <qTrib>1</qTrib>
+          <vUnTrib>3.75</vUnTrib>
+          <indTot>1</indTot>
+          <xPed>125128231272301</xPed>
+          <nFCI>3DAD8722-B45A-47EA-A7D6-7F511B6AC751</nFCI>
+        </prod>
+        <imposto>
+          <vTotTrib>2.12</vTotTrib>
+          <ICMS>
+            <ICMS00>
+              <orig>5</orig>
+              <CST>00</CST>
+              <modBC>3</modBC>
+              <vBC>3.75</vBC>
+              <pICMS>12.0000</pICMS>
+              <vICMS>0.45</vICMS>
+            </ICMS00>
+          </ICMS>
+          <IPI>
+            <cEnq>999</cEnq>
+            <IPINT>
+              <CST>53</CST>
+            </IPINT>
+          </IPI>
+          <PIS>
+            <PISNT>
+              <CST>04</CST>
+            </PISNT>
+          </PIS>
+          <COFINS>
+            <COFINSNT>
+              <CST>04</CST>
+            </COFINSNT>
+          </COFINS>
+          <ICMSUFDest>
+            <vBCUFDest>0.00</vBCUFDest>
+            <vBCFCPUFDest>0.00</vBCFCPUFDest>
+            <pFCPUFDest>0.0000</pFCPUFDest>
+            <pICMSUFDest>17.0000</pICMSUFDest>
+            <pICMSInter>12.00</pICMSInter>
+            <pICMSInterPart>100.0000</pICMSInterPart>
+            <vFCPUFDest>0.00</vFCPUFDest>
+            <vICMSUFDest>0.00</vICMSUFDest>
+            <vICMSUFRemet>0.00</vICMSUFRemet>
+          </ICMSUFDest>
+        </imposto>
+        <infAdProd>INCISO I, B, DO ART. 1 DA LEI N 10.147/00, COM AS ALTERACOES DA MP N 609, DE 2013;</infAdProd>
+      </det>
+      <total>
+        <ICMSTot>
+          <vBC>3.75</vBC>
+          <vICMS>0.45</vICMS>
+          <vICMSDeson>0.00</vICMSDeson>
+          <vFCPUFDest>0.00</vFCPUFDest>
+          <vICMSUFDest>0.00</vICMSUFDest>
+          <vICMSUFRemet>0.00</vICMSUFRemet>
+          <vFCP>0.00</vFCP>
+          <vBCST>0.00</vBCST>
+          <vST>0.00</vST>
+          <vFCPST>0.00</vFCPST>
+          <vFCPSTRet>0.00</vFCPSTRet>
+          <vProd>3.75</vProd>
+          <vFrete>0.00</vFrete>
+          <vSeg>0.00</vSeg>
+          <vDesc>0.00</vDesc>
+          <vII>0.00</vII>
+          <vIPI>0.00</vIPI>
+          <vIPIDevol>0.00</vIPIDevol>
+          <vPIS>0.00</vPIS>
+          <vCOFINS>0.00</vCOFINS>
+          <vOutro>0.00</vOutro>
+          <vNF>3.75</vNF>
+          <vTotTrib>2.12</vTotTrib>
+        </ICMSTot>
+      </total>
+      <transp>
+        <modFrete>0</modFrete>
+        <transporta/>
+      </transp>
+      <pag>
+        <detPag>
+          <indPag>0</indPag>
+          <tPag>17</tPag>
+          <vPag>3.75</vPag>
+        </detPag>
+      </pag>
+      <infAdic>
+        <infAdFisco>Cobranca do ICMS Destino devido ao Estado a titulo de DIFAL afastada pela decisao do STF no Rec Extr 1287019 Rep Geral Tema 1093, ADI 5469. Producao de efeitos das alteracoes do PL n32/21 na Lei Complementar n87/96 somente apos 90 dias da data de sua publicacao, conforme artigo 150, III, c, da Constituicao Federal.</infAdFisco>
+        <infCpl>Valor aproximado dos tributos: Federal - R$ 1.18 (31.48%); Estadual - R$ 0.94 (25.00%); Municipal - R$ 0.00 (0.00%) - Fonte IBPT. A/C LEANDRO JOSE RAMOS DA SILVEIRA. Numero do pedido da compra: 701-9891317-4601056</infCpl>
+        <obsCont xCampo="icmsTransporte">
+          <xTexto>1</xTexto>
+        </obsCont>
+        <obsCont xCampo="nome_dest">
+          <xTexto>A/C LEANDRO JOSE RAMOS DA SILVEIRA</xTexto>
+        </obsCont>
+      </infAdic>
+      <compra/>
+      <infRespTec>
+        <CNPJ>REMOVIDO</CNPJ>
+        <xContato>Amazon Servicos de Varejo do Brasil Ltda.</xContato>
+        <email>ANONIMO</email>
+        <fone>ANONIMO</fone>
+      </infRespTec>
+    </infNFe>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+        <Reference URI="#NFe33220315436940001410550010038584711177763925">
+          <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+            <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+          </Transforms>
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+          <DigestValue>6fBYJjMW84mYOSWggKfUfbbJR6E=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>bPAgZetINPLQj1Gsw+mmWH6vvO85yMudUHbG1o9rkc9pD6bztHKXUhgazUiatorPs3iF6YOsm7j6&#13;
+WFnlhtAuXkKno8YtBvMiXsxqrUJEPTCzFIo5m7gvASC4xO3RD+fNAyIUhCfZU1xrn0l1I1xuTZfm&#13;
+kiSwVgUTY1z4uThkag6QuM75Cajl1Cyc4Wn8e3JV1c1zaqW7bMJU56EVueaM2AJp8RiBGS2wxSNQ&#13;
+JCfO8mWT148bvVHmGC4VMA5oZcXQJRBrY/WmEpL4ZeXdroJ1eguoQ/aJGRsovFjLTMOvnVQQMSMk&#13;
+ZLUvohTCUK390ai1mdCK93e+rX/jq9XrfTh3Uw==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>MIIHRDCCBSygAwIBAgIIEd4hBAlSYwQwDQYJKoZIhvcNAQELBQAwWTELMAkGA1UEBhMCQlIxEzAR&#13;
+BgNVBAoTCklDUC1CcmFzaWwxFTATBgNVBAsTDEFDIFNPTFVUSSB2NTEeMBwGA1UEAxMVQUMgU09M&#13;
+VVRJIE11bHRpcGxhIHY1MB4XDTIxMDQwOTE5NTkwMFoXDTIyMDQwOTE5NTkwMFowge4xCzAJBgNV&#13;
+BAYTAkJSMRMwEQYDVQQKEwpJQ1AtQnJhc2lsMQswCQYDVQQIEwJTUDEQMA4GA1UEBxMHSXRhdGli&#13;
+YTEeMBwGA1UECxMVQUMgU09MVVRJIE11bHRpcGxhIHY1MRcwFQYDVQQLEw4wOTQ2MTY0NzAwMDE5&#13;
+NTETMBEGA1UECxMKUHJlc2VuY2lhbDEaMBgGA1UECxMRQ2VydGlmaWNhZG8gUEogQTExQTA/BgNV&#13;
+BAMTOEFNQVpPTiBTRVJWSUNPUyBERSBWQVJFSk8gRE8gQlJBU0lMIExUREEuOjE1NDM2OTQwMDAw&#13;
+MTAzMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArKc/775N4aN0glEciH5Rev3exc9y&#13;
+aJUybZkyNVwAbhCZkNN0zBu+qQoTO9zSoRK4yXtiGdUZdTlcVYwcD051vKvQwl53aPLOG9kH8xzX&#13;
+P9iuF2rVkKVxjnAICd/t6hY89P2ICeRgTTN1ldJsbbGQ4Y0ck4GcrrEaYqq8v6iQcE6t07GF6Dj/&#13;
+dV8L0EW/q4bXZVMvPj3YtHtNNjmfzbgnS9pwnf4YkAgqIdosW55EFIQ5TFgZV9/5vkuByx0tJUMB&#13;
+ZVsfdd54QrvZ/jCLM6nwN9bIsyUD6B2dvo7B2d0yd3CccawDEdogtgnVxZ64ZHaJx6NUvOvf3ELf&#13;
+lQTbBDF+YwIDAQABo4ICeDCCAnQwCQYDVR0TBAIwADAfBgNVHSMEGDAWgBTFUu0lgAnfnILIn0fG&#13;
+3bRfMd25sTBUBggrBgEFBQcBAQRIMEYwRAYIKwYBBQUHMAKGOGh0dHA6Ly9jY2QuYWNzb2x1dGku&#13;
+Y29tLmJyL2xjci9hYy1zb2x1dGktbXVsdGlwbGEtdjUucDdiMIGzBgNVHREEgaswgaiBEW9zbWFy&#13;
+ZkBhbWF6b24uY29toCUGBWBMAQMCoBwTGlJJQ0FSRE8gSk9TRSBUSE9NQVogUEFHQU5JoBkGBWBM&#13;
+AQMDoBATDjE1NDM2OTQwMDAwMTAzoDgGBWBMAQMEoC8TLTAzMDgxOTYxMDI0Njc4Mjk4NjMwMDAw&#13;
+MDAwMDAwMDAwMDAwMDAwMDAwMDAwMKAXBgVgTAEDB6AOEwwwMDAwMDAwMDAwMDAwXQYDVR0gBFYw&#13;
+VDBSBgZgTAECASYwSDBGBggrBgEFBQcCARY6aHR0cDovL2NjZC5hY3NvbHV0aS5jb20uYnIvZG9j&#13;
+cy9kcGMtYWMtc29sdXRpLW11bHRpcGxhLnBkZjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUH&#13;
+AwQwgYwGA1UdHwSBhDCBgTA+oDygOoY4aHR0cDovL2NjZC5hY3NvbHV0aS5jb20uYnIvbGNyL2Fj&#13;
+LXNvbHV0aS1tdWx0aXBsYS12NS5jcmwwP6A9oDuGOWh0dHA6Ly9jY2QyLmFjc29sdXRpLmNvbS5i&#13;
+ci9sY3IvYWMtc29sdXRpLW11bHRpcGxhLXY1LmNybDAdBgNVHQ4EFgQUmvHXA0+JV666Sbhb3XZq&#13;
+bmlyH1gwDgYDVR0PAQH/BAQDAgXgMA0GCSqGSIb3DQEBCwUAA4ICAQAtyyZOHzOYVR6MiKv2JkeD&#13;
+EbNiyKosAarWIHYj5E8iV3gE/xPPJG7nhEMyj0BA8S8Nc/GtdqWIClJLWao/EBc/L9eZOa49dHBQ&#13;
+dnFtcTm6u5GRtry5989itlYnceN43+qMepEh/Yysq7a9uEsABxrqZ59KFJidwLNU5KOjZ26iLDSi&#13;
+GmPI3D4Qrj//c1W9iQxh1m7NtXYdel3gv3JRUfFK8wseJSU0DQwDih68/BxGTJ0GWYIWttjyYBeB&#13;
+CvAetvnh+K2LFU4htMy7tD3Xh9iO6f1N0x47WE91JsRf3vT+WNFOmu+5p87lyVG5J9CXZAlup6TG&#13;
+oZGnKW3/wUQ1MQLYNGsmelsaMaL1VDmFtWvGkDBaTtu+9UpbRlg30buj2xxnHjywXzL7JgWdsfR+&#13;
+5tYWQZFE/RHfPzjPmiIPk1RvEeQ42vXcYQHxoVQXFf4CFGQVRC/I4UaVd1MK1Af/BNh2nITNl4y5&#13;
+ZznuqFIe6SRdVCfXsruB8WTAvGr5sGWcJfPWGJFcLeMAjK8vClUGTpfpPfkFEgaWMfizz9KCbci8&#13;
+JCwdUlXDbMyRNcVzTHos8U0JSN0CokedkQINt1EuEiVxjcqzCQuj2yocLBshTbCilxQu9+WxigyF&#13;
+bqp6ynp5cwxLnvT8TuICjKOtqabFkcpvrJEofuSREVD20TDd5J+keg==</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+  </NFe>
+  <protNFe versao="4.00">
+    <infProt>
+      <tpAmb>1</tpAmb>
+      <verAplic>SVRS202202101007</verAplic>
+      <chNFe>33220315436940001410550010038584711177763925</chNFe>
+      <dhRecbto>2022-03-29T08:41:59-03:00</dhRecbto>
+      <nProt>333220058838216</nProt>
+      <digVal>6fBYJjMW84mYOSWggKfUfbbJR6E=</digVal>
+      <cStat>100</cStat>
+      <xMotivo>Autorizado o uso da NF-e</xMotivo>
+    </infProt>
+  </protNFe>
+</nfeProc>
