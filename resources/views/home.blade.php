@@ -4,18 +4,133 @@
     <meta charset="UTF-8">
     <title>Portal de Notas Fiscais</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        .top-buttons { display: flex; gap: 10px; margin-bottom: 20px; }
-        .dashboard { display: flex; gap: 20px; margin-bottom: 40px; }
-        .card { padding: 20px; background: #f2f2f2; border-radius: 8px; flex: 1; text-align: center; }
-        .card h3 { margin-bottom: 10px; font-size: 16px; }
-        .card p { font-size: 20px; font-weight: bold; margin: 0; }
-        .notas-list { margin-top: 40px; }
-        .notas-list table { width: 100%; border-collapse: collapse; }
-        .notas-list th, .notas-list td { border: 1px solid #ccc; padding: 8px; text-align: left; }
-        .notas-list th { background-color: #f2f2f2; }
-        .notas-list a { color: #007BFF; text-decoration: none; }
-        .notas-list a:hover { text-decoration: underline; }
+        /* Reset básico e fonte */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+            margin: 0;
+            padding: 20px 40px;
+        }
+
+        h1, h2 {
+            color: #222;
+        }
+
+        /* Top buttons */
+        .top-buttons {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .top-buttons a button {
+            padding: 10px 18px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+
+        .top-buttons a button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Dashboard cards */
+        .dashboard {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 50px;
+        }
+
+        .card {
+            flex: 1 1 200px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+            text-align: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+        }
+
+        .card h3 {
+            font-size: 16px;
+            margin-bottom: 12px;
+            color: #555;
+        }
+
+        .card p {
+            font-size: 22px;
+            font-weight: bold;
+            margin: 0;
+            color: #111;
+        }
+
+        /* Form de upload */
+        form {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        form input[type="file"] {
+            padding: 6px;
+        }
+
+        form button {
+            background-color: #28a745;
+        }
+
+        form button:hover {
+            background-color: #1e7e34;
+        }
+
+        /* Tabelas */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        th, td {
+            padding: 12px 10px;
+            border: 1px solid #e0e0e0;
+            text-align: left;
+            font-size: 14px;
+        }
+
+        th {
+            background-color: #f5f5f5;
+            font-weight: 600;
+            color: #333;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        pre {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 6px;
+            overflow-x: auto;
+        }
     </style>
 </head>
 <body>
@@ -28,7 +143,7 @@
         <button type="button">Fornecedores</button>
     </a>
     <a href="{{ route('transportadoras.index') }}">
-    <button type="button">Transportadoras</button>
+        <button type="button">Transportadoras</button>
     </a>
 </div>
 

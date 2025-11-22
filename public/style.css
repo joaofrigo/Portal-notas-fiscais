@@ -1,0 +1,138 @@
+/* Reset e fonte base */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Botões do topo e gerais */
+.top-buttons {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+button, .btn {
+    padding: 10px 18px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.2s;
+    text-decoration: none;
+}
+
+button:hover, .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Dashboard cards */
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.card {
+    flex: 1 1 200px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+.card h3 {
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #555;
+}
+
+.card p {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+    color: #111;
+}
+
+/* Seção de envio de notas */
+form {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+form input[type="file"] {
+    padding: 6px;
+}
+
+/* Tabelas legíveis */
+.notas-list table,
+.fornecedores-list table,
+.transportadoras-list table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    margin-top: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.notas-list th,
+.notas-list td,
+.fornecedores-list th,
+.fornecedores-list td,
+.transportadoras-list th,
+.transportadoras-list td {
+    border: 1px solid #e0e0e0;
+    padding: 12px 10px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.notas-list th,
+.fornecedores-list th,
+.transportadoras-list th {
+    background-color: #f5f5f5;
+    font-weight: 600;
+    color: #333;
+}
+
+.notas-list a,
+.fornecedores-list a,
+.transportadoras-list a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.notas-list a:hover,
+.fornecedores-list a:hover,
+.transportadoras-list a:hover {
+    text-decoration: underline;
+}
+
+/* Cabeçalhos */
+h1, h2 {
+    color: #222;
+    margin-bottom: 20px;
+}
+
+/* Pre para mensagens */
+pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 6px;
+    overflow-x: auto;
+}
